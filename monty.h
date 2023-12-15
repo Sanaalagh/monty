@@ -66,7 +66,6 @@ int parse(char *buffer, int line_number, int format);
 void read_f(FILE *);
 int len_chars(FILE *);
 void f_func(char *, char *, int, int);
-
 /*Main */
 stack_t *cr_nd(int n);
 void fr_nd(void);

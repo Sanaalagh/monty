@@ -7,11 +7,9 @@
  * @argc: arguments count
  * Return: always 0 on success
  */
-
+stack_t *head = NULL;
 int main(int argc, char *argv[])
 {
-	stack_t *head = NULL;
-
 	if (argc != 2)
 	{
 		fprintf(stderr, "USAGE: monty file\n");
