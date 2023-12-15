@@ -83,28 +83,26 @@ void f_func(char *opcode, char *value, int ln, int format)
 {
 	int i;
 	int flag;
-
 	instruction_t func_list[] = {
 		{"push", push_},
-                {"pall", pall_},
-                {"pint", pint_},
-                {"pop", pop_},
-                {"nop", nop_},
-                {"swap", swap_},
-                {"add", add_},
-                {"sub", sub_},
-                {"div", div_},
-                {"mul", mul_},
-                {"mod", mod_},
-                {"pchar", pchar_},
-                {"pstr", pstr_},
-                {"rotl", rotl_},
-                {"rotr", rotr_},
-                {NULL, NULL}
+		{"pall", pall_},
+		{"pint", pint_},
+		{"pop", pop_},
+		{"nop", nop_},
+		{"swap", swap_},
+		{"add", add_},
+		{"sub", sub_},
+		{"div", div_},
+		{"mul", mul_},
+		{"mod", mod_},
+		{"pchar", pchar_},
+		{"pstr", pstr_},
+		{"rotl", rotl_},
+		{"rotr", rotr_},
+		{NULL, NULL}
 	};
-
 	if (opcode[0] == '#')
-		return;
+	return;
 
 	for (flag = 1, i = 0; func_list[i].opcode != NULL; i++)
 	{

@@ -4,9 +4,9 @@ stack_t *head = NULL;
 
 /**
  * main - The entry point
- * @argv: arguments list 
+ * @argv: arguments list
  * @argc: arguments count
- * Return: always 0 on success 
+ * Return: always 0 on success
  */
 
 int main(int argc, char *argv[])

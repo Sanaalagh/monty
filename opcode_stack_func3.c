@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * mul_ -  It multiplies the top element to the second top element of the stack.
+ * mul_-It multiplies the top element to the second top element of the stack.
  * @stack: Pointer to a pointer pointing to top node of the stack.
  * @line_number: Interger representing the line number of of the opcode.
  */

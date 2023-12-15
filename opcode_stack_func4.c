@@ -1,8 +1,8 @@
 #include "monty.h"
 
 /**
- * rotl_ - It Rotates the first first element to the bottom 
- * and  the second to the top.
+ * rotl_-It Rotates the first first element to the bottom
+ * and the second to the top.
  * @stack: Pointer to a pointer pointing to top node of the stack.
  * @ln: Interger representing the line number of of the opcode.
  */
